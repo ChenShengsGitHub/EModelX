@@ -4,10 +4,10 @@ EModelX is a method for automatic cryo-EM protein complex structure modeling.
 
 ## Environment
 `conda env create -f EModelX.yml`  
-For EModelX(+AF), you may need to run AlphaFold following https://github.com/deepmind/alphafold or get AlphaFold-predicted single-chain structures from AlphaFoldDB (https://alphafold.ebi.ac.uk/).  
+For EModelX(+AF), you may need to run AlphaFold following <https://github.com/deepmind/alphafold> or get AlphaFold-predicted single-chain structures from AlphaFoldDB (<https://alphafold.ebi.ac.uk/>).  
 
 ## Download NN model weights
-Download Nn model weights from `https://drive.google.com/file/d/13BKzEBfL0uubYgcJJTGSZ-PkO9hXAB9X/view?usp=drive_link` and build directory `./models`.  
+Download Nn model weights from <https://drive.google.com/file/d/13BKzEBfL0uubYgcJJTGSZ-PkO9hXAB9X/view?usp=drive_link> and build directory `./models`.  
 
 ## Minimal Example: Main Chain Modeling for new EM maps
 
@@ -24,8 +24,8 @@ Notice: If you want to run EModelX(+AF), please place your AlphaFold-predicted s
 
 ## Postprocess for all-atom construction and refinement
 ### Environment
-Install pulchra following `https://phenix-online.org/` into a directory, e.g. `modules/pulchra304`  
-Install phenix following `https://phenix-online.org/` into a directory, e.g. `modules/phenix-1.20.1-4487`  
+Install pulchra following <https://www.pirx.com/pulchra/> into a directory, e.g. `modules/pulchra304`  
+Install phenix following <https://phenix-online.org/> into a directory, e.g. `modules/phenix-1.20.1-4487`  
 
 ### Example
 For EModelX:   
