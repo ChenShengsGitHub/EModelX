@@ -19,7 +19,6 @@ For EModelX(+AF):
 , and `--fasta` with your target fasta   
 , and `--template_dir`: directory of the template folder, only needed when --protocol == temp_flex   
 , and `--output_dir`: the output directory for modeling results  
-
 Notice: If you want to run EModelX(+AF), please place your AlphaFold-predicted single-chain structures in your `--template_dir`， the format should follow our example in ./inputs/templates.  
 
 ## Postprocess for all-atom construction and refinement
@@ -32,7 +31,7 @@ For EModelX:
 `python run_com_modeling.py --protocol=temp_free --EM_map=./inputs/emd_32336.map.gz --fasta=./inputs/7w72.fasta --output_dir=./outputs --all_atom  --all_atom --pulchra_path modules/pulchra304/src/pulchra --phenix_act modules/phenix-1.20.1-4487/phenix_env.sh`  
 For EModelX(+AF):   
 `python run_com_modeling.py --protocol=temp_flex --EM_map=./inputs/emd_32336.map.gz --fasta=./inputs/7w72.fasta --template_dir=./inputs/templates --output_dir=./outputs --all_atom --pulchra_path modules/pulchra304/src/pulchra --phenix_act modules/phenix-1.20.1-4487/phenix_env.sh`   
+The modeling results would be `outputs/Result_7w72.pdb`
 
 ## Web Server
-EModelX's web server is accessible at
-https://bio-web1.nscc-gz.cn/app/EModelX
+EModelX's web server is accessible at <https://bio-web1.nscc-gz.cn/app/EModelX>   
