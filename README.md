@@ -28,7 +28,7 @@ Install phenix following <https://phenix-online.org/> into a directory, e.g. `mo
 
 ### Example
 For EModelX:   
-`python run_com_modeling.py --protocol=temp_free --EM_map=./inputs/emd_32336.map.gz --fasta=./inputs/7w72.fasta --output_dir=./outputs --all_atom  --all_atom --pulchra_path modules/pulchra304/src/pulchra --phenix_act modules/phenix-1.20.1-4487/phenix_env.sh`  
+`python run_com_modeling.py --protocol=temp_free --EM_map=./inputs/emd_32336.map.gz --fasta=./inputs/7w72.fasta --output_dir=./outputs --all_atom --pulchra_path modules/pulchra304/src/pulchra --phenix_act modules/phenix-1.20.1-4487/phenix_env.sh`  
 For EModelX(+AF):   
 `python run_com_modeling.py --protocol=temp_flex --EM_map=./inputs/emd_32336.map.gz --fasta=./inputs/7w72.fasta --template_dir=./inputs/templates --output_dir=./outputs --all_atom --pulchra_path modules/pulchra304/src/pulchra --phenix_act modules/phenix-1.20.1-4487/phenix_env.sh`   
 The modeling results would be `outputs/Result_7w72.pdb`
